@@ -1,0 +1,309 @@
+﻿/*TODOS LOS CONTROLES*/
+*{box-sizing:border-box}
+/*BODY*/
+body {
+    background-image: linear-gradient(to left,#806d0d,#4f4d3f,#806d0d);
+    text-align: center;
+    
+}
+/*CONTROLES DEL BODY*/
+div.over{
+    background:rgba(180,180,140,10.16);
+    padding: 1rem;
+    height: 65rem;
+}
+
+header{
+    float:left;
+    width: 20%;
+    height:100%;
+    padding:1rem;
+}
+header img{
+    width:100%;
+    border:groove 0.4rem #660;
+    border-radius:50%;
+    box-shadow:rgba(60,60,5,0.8) 0.6rem 0.6rem 1rem;
+}
+    header h2 {
+        background-image: radial-gradient(#662,#884);
+        box-shadow: rgba(60,60,5,0.8) 0.6rem 0.6rem 1rem;
+   }
+nav {
+    padding: 0;
+    width: 80%;
+    float: left;
+    background-color: #806d0d;
+    height: 3rem;
+    text-align: left;
+    color: #fff;
+}
+
+section{
+    width:80%;
+    float:left;
+    height:auto;
+    padding:1rem;
+}
+/*CONTROLES DEL NAV*/
+/*/CONTROLES DELNAV/*/
+nav ul {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+   float: left;
+}
+nav ul a {
+    padding: 0.5rem;
+    background-color: #000;
+    margin-right: 1rem;
+}
+
+nav ul li a:hover {
+   opacity: 0.6;
+}
+
+nav ul li div {
+    display: none;
+    margin-top: 1rem;
+    background-color: #888;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+nav ul li:hover div {
+   display: block;
+}
+
+nav ul li div a {
+   display: block;
+   margin-bottom: 0.5rem;
+   width: 100%;
+}
+
+nav ul li.right {
+   float: right;
+}
+#Login {
+   background: rgba(50,100,70,0.9);
+}/*CONTROL DE INGRESO DE USUARIO*/
+  /*CONTROLES DEL FORM*/
+form {
+    /*usuario admin*/
+    margin: auto;
+    width: 100%;
+    background: rgba(255, 106, 0,0);
+    height: auto;
+    min-height: 10rem;
+    min-height: 5rem;
+    margin-top: 3rem;
+    border: groove 0.4rem #660;
+    box-shadow: rgba(60,60,5,0.8) 0.6rem 0.6rem 1rem;
+}
+form div.header{
+    
+    height:3rem;
+    padding:0.5rem;
+    color:white;
+    background-color:black;
+}
+form div.header img{
+    height:100%;
+    float:right;
+}
+    form div.header label{
+
+        float:left;
+        font-size:1.2rem;
+    }
+#Cform{padding:1rem;
+       height:8rem;
+}
+#Foot{background-color:black;
+      padding:.5rem;
+      height:3rem;
+}
+  /*CONTROLES DEL FOOT*/
+#Submit, #Reset {
+    width: 45%;
+    font-weight: bold;
+    float: left;
+}
+#Reset{
+    float:right;
+    
+}
+/*CONTROLES DEL CFORM*/
+#Cform label{
+    clear:left;
+    float:left;
+    width:45%;
+    margin-bottom:0.5rem;
+    background-color:black;
+    color:white;
+    font-weight:bold; padding:0.25rem 1rem;
+    text-align:left;
+}
+#Cform input, #Cform select {
+    clear: right;
+    float: right;
+    width: 50%;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+#Cform input[type="file"] {
+    background-color: black;
+    color: #fff;
+}
+#Cform img {
+    height: 5rem;
+    border-radius: 50%;
+    border: groove .3rem #663;
+    box-shadow: rgba(60,60,5,0.8) 0.6rem 0.6rem 1rem;
+}
+
+
+/*CONTROLOES DE ALTO  CFORM*/
+form.l12{height:19rem;}
+form.l12 #Cform{height: 12rem;}
+form.l24 #Cform {
+    height: 24rem;
+}
+
+/*NUEVO BORRARLO POR LAS DUDAS
+*/
+
+form.l15 #Cform {
+    height: 15rem;
+}
+
+form.l15 {
+    height: 22rem;
+}
+
+/*/CONTROLES DE ALTURA/*/
+.l18 {
+    height: 18rem;
+}
+form.l24 #Cform {
+    height: 24rem;
+}
+
+form.l18 #Cform {
+    height: 18rem;
+}
+form.l18{height:25rem;}
+
+/*CONTROLES DE ANCHO */
+/*formulario de login(ingre al sistema)*/
+form.w40 {
+    width: 100%;
+}
+/* formulario de perfil*/
+form.w50 {
+    width: 50%;
+}
+
+/*CONTROLES TOP DEL FORM Y DE OTROS CONTROLES*/
+.top6 {
+    margin-top: 6rem;
+}
+
+.forgot {
+    margin: 1rem;
+    background-color: #000;
+    color: #fff;
+    width: auto;
+    float: left;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.forgot:hover {
+   opacity: 0.8;
+}
+/*TABLES*/
+/*#Table th:nth-child(2n+1) td{background-color:#ff6a00;
+                             color:#fff;
+}
+    #Table th:nth-child(2n+2) td{background-color:#662;
+                                 color:#fff;
+    }
+    #Table th,#Table div.footer{
+        background-color: #533;
+        color:#f00;
+    }*/
+
+
+#Foot .logout{
+    margin:0;
+    height:7rem;
+}
+
+
+div.dblbutton1, div.dblbutton2{
+    width:48%;
+    background-color:#806d0d;
+    border:groove 0.2rem, #333;
+}
+div.dblbutton2{float:right;
+               background-color:#a73617;
+               float:right;
+}
+div.dblbutton1{clear:left; float:left;}
+select.dblButton{
+    background-color: #806d0d;
+}
+div.dblbutton1:hover, div.dblbutton2:hover{opacity:0.8;}
+/*TABLA*/
+section #Table{
+    margin:auto;
+    min-width:60%;
+    margin-top:0.7rem
+}
+section #Table th {
+   background-color: #806d0d;
+   color: #fff;
+   font-weight: bold;padding:0.25rem;
+}
+section #Table tr:nth-child(2n+1) td{
+    background-color:#aaa;
+    color:#222;
+
+}
+section #Table tr:nth-child(2n) td {
+        background-color: #884;
+        color: #222;
+}
+.Footer {
+        background-color: #884;
+        color: #222;
+        padding:0.2rem;
+        min-height:1rem;
+}
+
+.btfoot {
+    width: 24%;
+    margin: 0.25%;
+    background-color: rgba(50,100,70,0.9);
+    color: #ddd;
+    font-weight: bold;
+}
+.left{ float:left;}
+.right{float:right}
+
+#Foot.logout #Submit {
+        margin: 2rem;
+}
+
+section .portada {
+    width: 1400px;
+    height: 900px;
+}
+.portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
